@@ -1,87 +1,53 @@
-# Welcome to React Router!
+🚀 AI Resume Analyzer
+An AI-powered tool designed to help job seekers optimize their resumes by comparing them directly against specific Job Descriptions (JD). It provides real-time ATS scores, content feedback, and actionable improvement tips.
 
-A modern, production-ready template for building full-stack React applications using React Router.
+✨ Features
+Smart AI Analysis: Matches your resume to any JD to provide a tailored ATS score.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+Resume Storage: Upload and manage multiple resumes using Puter.js cloud storage.
 
-## Features
+Comprehensive Feedback: Get insights on tone, style, skills, and structure.
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+PDF to Image Conversion: High-fidelity PDF processing for visual AI analysis.
 
-## Getting Started
+Serverless Architecture: Fully functional backend-less app using Puter's AI and KV store.
 
-### Installation
+⚙️ Tech Stack
+Framework: React + React Router v7
 
-Install the dependencies:
+BaaS: Puter.js (Auth, AI, KV Store, File System)
 
-```bash
+State Management: Zustand
+
+Styling: Tailwind CSS
+
+Language: TypeScript
+
+🤸 Quick Start
+Prerequisites
+Node.js (v18+)
+
+npm
+
+Installation
+Clone the repository:
+
+Bash
+git clone https://github.com/your-username/resume-analyzer.git
+cd resume-analyzer
+Install dependencies:
+
+Bash
 npm install
-```
+Run the development server:
 
-### Development
-
-Start the development server with HMR:
-
-```bash
+Bash
 npm run dev
-```
+🚨 Troubleshooting Note
+If you encounter WebSocket connection issues (e.g., wss://api.puter.com), try the following:
 
-Your application will be available at `http://localhost:5173`.
+Open the app in Incognito Mode to disable conflicting extensions.
 
-## Building for Production
+Check your firewall or VPN settings.
 
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+Use a modern browser like Microsoft Edge or Firefox for better compatibility.
